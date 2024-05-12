@@ -29,9 +29,9 @@
 
                 default_layer {
 // -----------------------------------------------------------------------------------------
-// |  ESC |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  |  '   |
-// |  TAB |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  | BKSP |
-// |  SYM |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | NUM  |
+// |  ESC |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | '"   |
+// |  TAB |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  | ;:  | BKSP |
+// |  SYM |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   | ,<  | .>  | /?  | NUM  |
 //                    | ALT | GUI | ENT |   | SPC | GUI  | ALT |
                         display-name = "Base";
                         bindings = <
@@ -52,7 +52,7 @@
    &trans  &kp EXCL  &kp AT    &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &trans
    &trans  &kp TILDE &kp GRAVE &trans   &trans   &trans      &kp MINUS &kp EQUAL &kp LBKT        &kp RBKT &kp BSLH &trans
    &trans  &trans    &trans    &trans   &trans   &trans      &kp UNDER &kp PLUS  &kp LBRC        &kp RBRC &kp PIPE &trans
-                    	       &trans   &trans   &trans      &trans    &trans    &kp trans
+                    	       &trans   &trans   &trans      &trans    &trans    &trans
                         >;
                 };
                 num_layer {
