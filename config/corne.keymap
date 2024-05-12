@@ -22,6 +22,12 @@
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
         };
+	td_caps: tap_dance_caps_lock {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp Q>, <&kp CAPS_LOCK>;
+        };
     };
     
         keymap {
@@ -35,7 +41,7 @@
 //                    | ALT | GUI | ENT |   | SPC | GUI  | ALT |
                         display-name = "Base";
                         bindings = <
-   &kp ESC  &kp Q        &kp W &kp E    &kp R         &kp T     &kp Y     &kp U          &kp I     &kp O   &kp P           &kp SQT
+   &kp ESC  &td_caps     &kp W &kp E    &kp R         &kp T     &kp Y     &kp U          &kp I     &kp O   &kp P           &kp SQT
    &kp TAB  &bhm LCTRL A &kp S &kp D    &bhm LSHIFT F &kp G     &kp H     &bhm RSHIFT J  &kp K     &kp L   &bhm RCTRL SEMI &kp BKSP
    &tog SYM &kp Z        &kp X &kp C    &kp V         &kp B     &kp N     &kp M          &kp COMMA &kp DOT &kp FSLH        &tog NUM
                                &kp LALT &kp LGUI      &kp RET   &kp SPACE &kp RGUI       &kp RALT
