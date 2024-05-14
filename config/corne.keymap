@@ -45,7 +45,7 @@
 	    timeout-ms = <50>;
 	    key-position = <0 11>;
 	    bindings = <&to BT>;
-	}
+	};
     };
     
         keymap {
