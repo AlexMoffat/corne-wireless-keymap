@@ -46,7 +46,7 @@
 	    key-position = <0 11>;
 	    bindings = <&to BT>;
 	}
-    }
+    };
     
         keymap {
                 compatible = "zmk,keymap";
