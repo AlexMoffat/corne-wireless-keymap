@@ -101,7 +101,7 @@
    &to DEF &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans   &trans &trans &trans &trans &trans &to DEF
                              &trans &trans    &trans   &trans &trans &trans
                         >;
-jj                };
+                };
                 bt_layer {
 // -----------------------------------------------------------------------------------------
 // | BTCLR| BT0 | BT1 | BT2 | BT3 | BT4 |   |     |     |     |     |     |     |
@@ -118,5 +118,3 @@ jj                };
                 };
         };
 };
-
-// 
